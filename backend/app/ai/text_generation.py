@@ -107,13 +107,13 @@ class TextGenerationService:
             if json_match:
                 data = json.loads(json_match.group(0))
             else:
-                data = {"post_text": response_text, "image_prompt": f"A highly detailed, professional, and creative visual conceptualizing: {topic}. No text.", "hashtags": [f"#{platform}", "#PostCraftAI"]}
+                data = {"post_text": response_text, "image_prompt": f"A highly detailed, professional, and creative visual conceptualizing: {topic}. No text.", "hashtags": [f"#{platform}", "#SocialMediaContentCreationAI"]}
         except Exception:
-            data = {"post_text": response_text, "image_prompt": f"A highly detailed, professional, and creative visual conceptualizing: {topic}. No text.", "hashtags": [f"#{platform}", "#PostCraftAI"]}
+            data = {"post_text": response_text, "image_prompt": f"A highly detailed, professional, and creative visual conceptualizing: {topic}. No text.", "hashtags": [f"#{platform}", "#SocialMediaContentCreationAI"]}
             
         post_text = data.get("post_text", response_text)
         image_prompt = data.get("image_prompt", f"A highly detailed, professional, and creative visual conceptualizing: {topic}. No text.")
-        hashtags = data.get("hashtags", [f"#{platform}", "#PostCraftAI"])
+        hashtags = data.get("hashtags", [f"#{platform}", "#SocialMediaContentCreationAI"])
         
         import urllib.parse
         safe_prompt = urllib.parse.quote(image_prompt)

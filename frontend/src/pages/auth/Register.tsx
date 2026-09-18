@@ -54,7 +54,7 @@ export default function Register() {
             </div>
           </div>
           <CardTitle className="text-2xl font-bold tracking-tight">Create an account</CardTitle>
-          <CardDescription>Join PostCraft AI to generate content</CardDescription>
+          <CardDescription>Join Social Media Content Creation to generate content</CardDescription>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">

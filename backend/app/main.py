@@ -9,7 +9,7 @@ from app.config.database import Base, engine
 # Create tables if they don't exist (simplifying for now instead of alembic)
 Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="PostCraft AI Backend")
+app = FastAPI(title="Social Media Content Creation Backend")
 
 app.add_middleware(
     CORSMiddleware,
@@ -26,4 +26,4 @@ app.include_router(linkedin_router, prefix="/api/linkedin", tags=["LinkedIn"])
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to PostCraft AI Backend"}
+    return {"message": "Welcome to Social Media Content Creation Backend"}

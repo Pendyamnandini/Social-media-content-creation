@@ -8,7 +8,7 @@ import App from './App.tsx'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
-      <ThemeProvider defaultTheme="system" storageKey="postcraft-theme">
+      <ThemeProvider defaultTheme="system" storageKey="SocialMediaContentCreation-theme">
         <App />
       </ThemeProvider>
     </BrowserRouter>
