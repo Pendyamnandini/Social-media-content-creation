@@ -1,4 +1,4 @@
-# Social Media Content Creation
+# PostCraft AI
 
 An AI-powered platform designed to automate and enhance social media content creation. The application helps users generate professional posts, edit images, and publish content seamlessly (e.g., to LinkedIn), utilizing the power of modern AI and machine learning tools.
 
