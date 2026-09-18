@@ -12,7 +12,7 @@ export default function Landing() {
         <div className="container mx-auto px-4 h-14 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Sparkles className="h-5 w-5 text-indigo-600 dark:text-indigo-400" />
-            <span className="font-bold text-lg">Social Media Content Creation ✦</span>
+            <span className="font-bold text-lg">PostCraft AI ✦</span>
           </div>
           <nav className="hidden md:flex gap-6 text-sm font-medium">
             <a href="#features" className="hover:text-indigo-600 transition-colors">Features</a>
@@ -114,7 +114,7 @@ export default function Landing() {
               </div>
             </div>
             <div className="mt-12 inline-block rounded-xl bg-indigo-50 dark:bg-indigo-900/20 px-8 py-4">
-              <p className="text-xl font-semibold text-indigo-700 dark:text-indigo-400">Social Media Content Creation solves them in one place.</p>
+              <p className="text-xl font-semibold text-indigo-700 dark:text-indigo-400">PostCraft AI solves them in one place.</p>
             </div>
           </div>
         </section>
@@ -145,7 +145,7 @@ export default function Landing() {
       </main>
 
       <footer className="py-8 text-center text-sm text-slate-500 border-t border-border bg-white dark:bg-slate-950">
-        <p>© 2026 Social Media Content Creation. All rights reserved.</p>
+        <p>© 2026 PostCraft AI. All rights reserved.</p>
       </footer>
     </div>
   );

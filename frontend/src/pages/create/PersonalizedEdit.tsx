@@ -223,7 +223,7 @@ export default function PersonalizedEdit() {
                       </div>
                     </div>
                     <div className="whitespace-pre-wrap text-sm leading-relaxed mb-4">
-                      {instructions ? `Generated caption based on: ${instructions}` : "Here is your awesome newly edited content! #SocialMediaContentCreationAI"}
+                      {instructions ? `Generated caption based on: ${instructions}` : "Here is your awesome newly edited content! #PostCraftAI"}
                     </div>
                     <div className="w-full flex items-center justify-center p-2 text-center">
                       {editedImage ? (

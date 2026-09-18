@@ -53,7 +53,7 @@ export default function Login() {
               <Sparkles className="text-white h-6 w-6" />
             </div>
           </div>
-          <CardTitle className="text-2xl font-bold tracking-tight">Sign In to Social Media Content Creation</CardTitle>
+          <CardTitle className="text-2xl font-bold tracking-tight">Sign In to PostCraft AI</CardTitle>
           <CardDescription>Welcome back! Please enter your details.</CardDescription>
         </CardHeader>
         <CardContent>

@@ -29,7 +29,7 @@ export default function Dashboard() {
       <aside className="w-64 border-r border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hidden md:flex flex-col">
         <div className="h-14 flex items-center px-4 border-b border-slate-200 dark:border-slate-800">
           <Sparkles className="h-5 w-5 text-indigo-600 dark:text-indigo-400 mr-2" />
-          <span className="font-bold text-lg tracking-tight">Social Media Content Creation</span>
+          <span className="font-bold text-lg tracking-tight">PostCraft AI</span>
         </div>
         <nav className="flex-1 p-4 space-y-2">
           <Button variant={location.pathname === '/dashboard' ? 'secondary' : 'ghost'} className="w-full justify-start" onClick={() => navigate('/dashboard')}>
